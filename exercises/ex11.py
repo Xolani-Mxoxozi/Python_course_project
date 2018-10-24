@@ -11,3 +11,5 @@ print "How much do yopu weight?",
 weight = raw_input()
 
 print "So you're %r old, %r tall and %r heavy." % (age, height, weight)
+
+#Checking if build trigures automatically

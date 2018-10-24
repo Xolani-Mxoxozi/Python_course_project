@@ -7,7 +7,7 @@ python:
 cache: pip
 
 install:
-    - pip install -r requirements.txt
+#     - pip install -r requirements.txṭ
     - sudo apt-get install python-pip
     - sudo apt-get install build-essential libssl-dev libffi-dev python-dev
     - pip install pytest
@@ -22,7 +22,7 @@ script:
   - python exercises/ex6.py
   - python exercises/ex7.py
   - python exercises/ex8.py
-  - python exercises/ex10.py
+#   - python exercises/ex10.py
   - python exercises/ex11.py < answers/answers.txt
   - python exercises/ex12.py < answers/answers.txt
   - python exercises/ex13.py stuff things that < answers/answers.txt
@@ -42,7 +42,7 @@ script:
   - python exercises/ex26.py
   - python exercises/ex29.py
   - python exercises/ex30.py
-  - python exercises/ex31.py
+#   - python exercises/ex31.py
   - python exercises/ex32.py
 
 
