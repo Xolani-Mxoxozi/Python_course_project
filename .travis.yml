@@ -1,0 +1,70 @@
+language: python
+sudo: false
+
+python:
+  - "2.7"
+  
+cache: pip
+
+install:
+    - pip install -r requirements.txt
+    - sudo apt-get install python-pip
+    - sudo apt-get install build-essential libssl-dev libffi-dev python-dev
+    - pip install pytest
+    
+script:
+
+  - python exercises/ex1.py
+  - python exercises/ex2.py
+  - python exercises/ex3.py
+  - python exercises/ex4.py
+  - python exercises/ex5.py
+  - python exercises/ex6.py
+  - python exercises/ex7.py
+  - python exercises/ex8.py
+  - python exercises/ex10.py
+  - python exercises/ex11.py < answers/answers.txt
+  - python exercises/ex12.py < answers/answers.txt
+  - python exercises/ex13.py stuff things that < answers/answers.txt
+  - python exercises/ex14.py test < answes2.txt
+  - python exercises/ex15.py ex15_sample.txt < answers/anwer.txt
+  - python exercises/ex16.py test.txt < bash_files/enter.sh
+  - python exercises/ex17.py test.txt new_file.txt < bash_files/enter.sh
+  - python exercises/ex18.py
+  - python exercises/ex19.py
+  - python exercises/ex20.py test.txt
+  - python exercises/ex21.py
+  - python exercises/ex24.py
+  #gives permiions to read
+  - sudo chmod +x bash_files/testing.sh
+  - sleep 3
+  - python exercises/ex25.py
+  - python exercises/ex26.py
+  - python exercises/ex29.py
+  - python exercises/ex30.py
+  - python exercises/ex31.py
+  - python exercises/ex32.py
+
+
+
+#   - python ex11.py  < answers.txt
+#   - python ex12.py  < answers.txt
+#   - python ex13.py stuff things that < answers.txt
+#   - python ex14.py  test < answes2.txt
+#   - python ex15.py ex15_sample.txt < anwer.txt  
+#   - python ex16.py test.txt < enter.sh
+#   - python ex17.py test.txt new_file.txt < enter.sh
+#   - python ex18.py
+#   - python ex19.py
+#   - python ex20.py test.txt
+#   - python ex21.py  
+#   - python ex24.py
+#   - sudo chmod +x testing.sh
+#   - python < testing.sh
+# #   - sleep 3
+#   - testing.sh
+#   - ex25.sh
+#   - sleep 3
+#   - python ex18.py  
+#   - python escapeCharector.py
+
