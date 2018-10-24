@@ -13,8 +13,8 @@ def multiply(a, b):
 	return a * b
 
 def divide(a, b):
-	14 print "DIVIDING %d / %d" % (a, b)
-	15 return a / b
+	print "DIVIDING %d / %d" % (a, b)
+	return a / b
 
 print "Let's do some math with just functions!"
 
