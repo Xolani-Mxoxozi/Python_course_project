@@ -22,7 +22,7 @@ script:
   - python exercises/ex6.py
   - python exercises/ex7.py
   - python exercises/ex8.py
-  - python exercises/ex10.py
+#   - python exercises/ex10.py
   - python exercises/ex11.py < answers/answers.txt
   - python exercises/ex12.py < answers/answers.txt
   - python exercises/ex13.py stuff things that < answers/answers.txt
