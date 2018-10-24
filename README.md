@@ -1,1 +1,2 @@
-# Python_course_project
+# Python-course-projects
+Python Course Practise Projects/Exercises
