@@ -29,7 +29,7 @@ script:
   - python exercises/ex14.py test < answers/answes2.txt
   - python exercises/ex15.py ex15_sample.txt < answers/anwer.txt
   - python exercises/ex16.py test.txt < bash_files/enter.sh
-  - python exercises/ex17.py test.txt new_file.txt < bash_files/enter.sh
+  - python exercises/ex17.py test.txt new_file.txt < bash_files/enter2.sh
   - python exercises/ex18.py
   - python exercises/ex19.py
   - python exercises/ex20.py test.txt
