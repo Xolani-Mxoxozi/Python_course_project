@@ -15,8 +15,3 @@ print tabby_cat
 print persian_cat
 print backslash_cat
 print fat_cat
-
-# For loop that shows escape chararctor
-while True:
-	for i in ["/","_","|","||","|"]:
-		print "%s\r" % i,
