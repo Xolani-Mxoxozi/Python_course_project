@@ -41,5 +41,6 @@ script:
   - python exercises/ex29.py
   - python exercises/ex30.py
   - python exercises/ex32.py
+  - python exercises/ex41.py < answers/ex41.txt
 
 #Add change
